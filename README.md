@@ -25,7 +25,7 @@ Folder Structure is as Follows:
 ├── assets (Font files, logos, audio, video, etc!)
 └── lib
     ├── services (handle the business logic and data fetching)
-    ├── (route configuration, navigation helpers, or even nested sub-folders for different sections of the app)
+    ├── routes (route configuration, navigation helpers, or even nested sub-folders for different sections of the app)
     ├── constants (For any constant values, such as API endpoints, route names, or configuration settings, you can store them in the constants folder)
     ├── utils (utility functions or helper classes that are used throughout your app. These utilities can be independent of your state management implementation and provide general-purpose functionalities)
     ├── models (store your data model classes. These classes define the structure of your data entities, such as users, products, or any other objects you may need.)
