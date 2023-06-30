@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/TodoProvider.dart';
-import '../dialogs/Todo/AddTodo.dart';
-import '../dialogs/Todo/EditTodo.dart';
+import '../../providers/TodoProvider.dart';
+import '../widgets/TodoDialogs/AddTodo.dart';
+import '../widgets/TodoDialogs/EditTodo.dart';
 
 class TodoScreen extends StatelessWidget {
   final TextEditingController _titleController = TextEditingController();

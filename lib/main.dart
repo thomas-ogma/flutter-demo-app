@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'providers/TodoProvider.dart';
-import './screens/TodoScreen.dart';
+import './ui/screens/TodoScreen.dart';
 
 void main() {
   runApp(MyApp());

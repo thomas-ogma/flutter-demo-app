@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../models/TodoModel.dart';
-import '../../providers/TodoProvider.dart';
+import '../../../models/TodoModel.dart';
+import '../../../providers/TodoProvider.dart';
 
 class EditTodoDialog extends StatefulWidget {
   final Todo todo;
